@@ -14,7 +14,7 @@ Each workflow has its own strengths and weaknesses, and understanding these can 
 
 ---
 
-### Centralized Workflow
+## Centralized Workflow
 
 The Centralized Workflow uses a central repository to serve as the single point of entry for all changes to the project. The default development branch is called main, and all changes are committed into this branch. This workflow doesn’t require any other branches besides main. 
 
@@ -34,7 +34,7 @@ The advantage of the Centralized Workflow is that there is only a small shift in
 
 ---
 
-### Feature Branch Workflow in Git
+## Feature Branch Workflow in Git
 
 The core idea of the feature branch workflow is to avoid making direct updates to the main branch while creating features on independent branches.
 This allow multiple developers to work on a feature without disrupting the main branch.
@@ -50,7 +50,7 @@ Due to this, the main branch will never contain broken code.
 
 ---
 
-### Forking Workflow in Git
+## Forking Workflow in Git
 
 Forking workflow differs from other workflows that use a single "centralized" repository by having a server-side repository for every developer; those repositories are forked from the official repository.
 This is most common with public open source projects.
