@@ -20,7 +20,7 @@ The Centralized Workflow uses a central repository to serve as the single point 
 
 The Centralized Workflow is like other workflows in its utilization of a remote server-side hosted repository that developers push and pull from. Compared to other workflows, the Centralized Workflow has no defined pull request or forking patterns. A Centralized Workflow is generally better suited for smaller size teams.
 
-### Workflow from the perspective of a single developer
+### Centralized Workflow from the perspective of a single developer
 
 - Clone the master branch of remote repository
 - Commit any changes to the local repository
