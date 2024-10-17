@@ -21,6 +21,25 @@ The Centralized Workflow is like other workflows in its utilization of a remote 
 
 The advantage of the Centralized Workflow is that there is only a small shift in how to think about your code and the repository. The team does not have to learn a completely new way and approach to using version control. The drawback to this workflow is that your master branch is always at risk of being broken by code changes. The other approaches we discuss address that.
 
+---
+
+## Feature Branch Workflow in Git
+
+The core idea of the feature branch workflow is to avoid making direct updates to the main branch while creating features on independent branches.
+This allow multiple developers to work on a feature without disrupting the main branch.
+Due to this, the main branch will never contain broken code.
+
+***
+
+### The process for the developer
+- Start in the latest main commit. (All feature branches must be created of the latest state of the project)
+- Create a new branch and name it according to the feature being added.
+- On the new branch, add, edit and commit changes.
+- Once your feature is ready, push your commits to the central repository.
+- Now your teammates can comment and approve the pushed commits.
+- Finally create a merge pull request, making sure to resolve any issues and conflict before the final merge.
+
+
 ## Summary
 
 We summarized here **4 popular version control workflows**. 
