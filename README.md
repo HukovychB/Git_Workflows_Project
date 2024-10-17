@@ -89,7 +89,6 @@ This version control method is a more modern approach to handling large projects
 - New commits are either hotfixing bugs or introducing new major updates 
 - **Goal** - allows having a stable version of a project
 
-***
 
 ### Develop branch
 
@@ -98,7 +97,6 @@ This version control method is a more modern approach to handling large projects
 - Feature branches are merged into this branch creating a preliminary version of an updated project
 - **Goal** - serves a role of accumulating feautures and preparing projects before release
 
-***
 
 ### Feature branches
 
@@ -106,7 +104,6 @@ This version control method is a more modern approach to handling large projects
 - Forked from develop branch and upon finishing are merged back into it
 - **Goal** - playing ground for developers for safe experimenting with new feautures
 
-***
 
 ### Release branch(es)
 - This branch is used to **prepare a new version of a project for release**
@@ -114,7 +111,6 @@ This version control method is a more modern approach to handling large projects
 - On this branch no new features are introduced and only bug fixes and similar things are added
 - **Goal** - serves a role of a final preparation and refining of a new of version of a project
 
-***
 
 ### Hotfix branches
 - **Quickly patch production releases**
