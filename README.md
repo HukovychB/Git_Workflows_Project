@@ -78,6 +78,41 @@ This version control method is a more modern approach to handling large projects
 - New commits are either hotfixing bugs or introducing new major updates 
 - **Goal** - allows having a stable version of a project
 
+***
+
+### Develop branch
+
+- **Main contribution of this branching strategy**
+- This branch serves as **an integration place for features**
+- Feature branches are merged into this branch creating a preliminary version of an updated project
+- **Goal** - serves a role of accumulating feautures and preparing projects before release
+
+***
+
+### Feature branches
+
+- Work in similar manner as in *Feature Branch Workflow*
+- Forked from develop branch and upon finishing are merged back into it
+- **Goal** - playing ground for developers for safe experimenting with new feautures
+
+***
+
+### Release branch(es)
+- This branch is used to **prepare a new version of a project for release**
+- It is **forked from developed** and subsequently **merged into main**
+- On this branch no new features are introduced and only bug fixes and similar things are added
+- **Goal** - serves a role of a final preparation and refining of a new of version of a project
+
+***
+
+### Hotfix branches
+- **Quickly patch production releases**
+- It is **forked from main** and after a fix merged back into it
+- **Goal** - serves a quick and simple way to hotfix a project
+
+***
+
+
 ## Summary
 
 We summarized here **4 popular version control workflows**. 
