@@ -20,7 +20,7 @@ The Centralized Workflow uses a central repository to serve as the single point 
 
 The Centralized Workflow is like other workflows in its utilization of a remote server-side hosted repository that developers push and pull from. Compared to other workflows, the Centralized Workflow has no defined pull request or forking patterns. A Centralized Workflow is generally better suited for smaller size teams.
 
-## Workflow from the perspective of a single developer
+### Workflow from the perspective of a single developer
 
 - Clone the master branch of remote repository
 - Commit any changes to the local repository
@@ -28,7 +28,7 @@ The Centralized Workflow is like other workflows in its utilization of a remote 
 - (If needed) resolve a conflict
 - Push changes to central repository 
 
-## Advantages and disadvantages of Centralized Workflow
+### Advantages and disadvantages of Centralized Workflow
 
 The advantage of the Centralized Workflow is that there is only a small shift in how to think about your code and the repository. The team does not have to learn a completely new way and approach to using version control. The drawback to this workflow is that your master branch is always at risk of being broken by code changes. The other approaches we discuss address that.
 
